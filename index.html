@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Ma Hsu Myat Noe Naing 🌸</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{background:linear-gradient(#fff0f6,#fff);color:#6b3a4a;overflow-x:hidden}
+.container{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px}
+.card{background:rgba(255,255,255,.7);padding:40px 25px;border-radius:30px;box-shadow:0 10px 40px #ddd;max-width:500px}
+h1{color:#d85b87;font-size:36px}
+h2{margin:15px 0}
+button{margin-top:25px;padding:15px 30px;border:0;border-radius:30px;background:#e989ad;color:white;font-size:18px}
+.section{text-align:center;padding:50px 20px}
+.letter{background:white;padding:30px;border-radius:25px;max-width:600px;margin:auto;line-height:1.8}
+.petal{position:fixed;top:-20px;animation:fall 8s linear infinite}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
+.gallery{display:flex;gap:15px;justify-content:center;flex-wrap:wrap}
+.photo{width:120px;height:120px;background:#ffd6e5;border-radius:20px;display:flex;align-items:center;justify-content:center}
+</style>
+</head>
+<body>
+<script>
+for(let i=0;i<30;i++){let p=document.createElement('div');p.className='petal';p.innerHTML='🌸';p.style.left=Math.random()*100+'%';p.style.animationDelay=Math.random()*8+'s';document.body.appendChild(p);}
+</script>
+<div class="container">
+<div class="card">
+<h1>Happy Birthday 🌸</h1>
+<h2>Ma Hsu Myat Noe Naing</h2>
+<p>A little surprise made just for you ❤️</p>
+<button onclick="alert('Happy Birthday Ma Hsu Myat Noe Naing 🌸❤️')">Open Your Gift 🎁</button>
+</div>
+</div>
+<div class="section">
+<h2>💌 Birthday Letter</h2>
+<div class="letter">
+<p>Happy Birthday, Ma Hsu Myat Noe Naing 🌷</p>
+<p>ဒီနေ့က မင်းအတွက် ပျော်ရွှင်မှုတွေနဲ့ ပြည့်နေတဲ့ အထူးနေ့လေး ဖြစ်ပါစေလို့ ဆုတောင်းပါတယ်။</p>
+<p>မင်းရဲ့ အိပ်မက်တွေ အကောင်အထည်ပေါ်လာပြီး ကျန်းမာပျော်ရွှင်တဲ့ နေ့ရက်တွေ အများကြီး ပိုင်ဆိုင်နိုင်ပါစေ။</p>
+<p>ဒီ Website လေးက မင်းမွေးနေ့အတွက် အမှတ်တရလေးတစ်ခုအနေနဲ့ လုပ်ထားတာပါ ❤️</p>
+<p>Enjoy your special day 🌸</p>
+</div>
+</div>
+<div class="section">
+<h2>📸 Our Memories</h2>
+<div class="gallery">
+<div class="photo">Photo 1</div><div class="photo">Photo 2</div><div class="photo">Photo 3</div><div class="photo">Photo 4</div>
+</div>
+</div>
+</body>
+</html>
